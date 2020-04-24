@@ -4,10 +4,11 @@ public class AddrBook {
 	private int ab_id;
 	private String ab_name;
 	private String ab_email;
-	private String ab_birth;
 	private String ab_tel;
+	private String ab_birth;
 	private String ab_comdept;
 	private String ab_memo;
+	
 	public int getAb_id() {
 		return ab_id;
 	}
@@ -26,17 +27,17 @@ public class AddrBook {
 	public void setAb_email(String ab_email) {
 		this.ab_email = ab_email;
 	}
-	public String getAb_birth() {
-		return ab_birth;
-	}
-	public void setAb_birth(String ab_birth) {
-		this.ab_birth = ab_birth;
-	}
 	public String getAb_tel() {
 		return ab_tel;
 	}
 	public void setAb_tel(String ab_tel) {
 		this.ab_tel = ab_tel;
+	}
+	public String getAb_birth() {
+		return ab_birth;
+	}
+	public void setAb_birth(String ab_birth) {
+		this.ab_birth = ab_birth;
 	}
 	public String getAb_comdept() {
 		return ab_comdept;
